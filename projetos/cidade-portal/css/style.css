@@ -7,6 +7,7 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: #fff url(../data/img/fundo.png) repeat-x;
+    
 }
 #container {
     width: 750px;
@@ -61,4 +62,107 @@ body.home #navegacao a#home,body.brasil #navegacao a#brasil,body.internacilnal #
  color: white;
  background: #de003e;
  cursor: text;   
+}
+#conteudo{
+    margin-top: 80px;
+    background-color: #f5f5f5;
+    /* width: 750px; */
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin:0 0 20px -750px;
+    
+}
+
+#tres-colunas #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    
+}
+
+#duas-colunas #primario{
+    width: 555px;
+    
+}
+#uma-coluna #primario{
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 0;
+   
+}
+
+#secundario{
+    width: 270px;
+    margin: 0 0 20px 15px;
+    float: left;
+    background-color: green;
+}
+
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+/* caixa */
+.caixa{
+    background: #f3f3f3 url(../data/img/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px 0 5px 0 ;
+
+}
+h2{
+    font-size: 1.1em;
+    background: #294c71;
+    color: white;
+    padding: 5px;
+}
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+    color: black;
+}
+#lateral ul a:hover{
+    background: #f9f9f9 url(../data/img/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+
+/*  */
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 125px;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+  
+
 }
