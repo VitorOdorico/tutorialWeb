@@ -98,7 +98,7 @@ body.home #navegacao a#home,body.brasil #navegacao a#brasil,body.internacilnal #
     width: 270px;
     margin: 0 0 20px 15px;
     float: left;
-    background-color: green;
+    
 }
 
 
@@ -165,4 +165,48 @@ input.submit{
     border: 2px solid #870529;
   
 
+}
+
+
+img.imagem-principal{
+    border: 3px solid #dfdfdf;
+    width: 98%;
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background-color: #b10333;
+    line-height: 30px;
+}
+.caixa a{
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+.caixa a:hover{
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(20, 43, 255);
+}
+
+/* formatação lista noticias */
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+/* formatação lista noticias */
+#lista-noticias li a img{
+   float: left;
+   margin: 5px;
+
+}
+#lista-noticias li a{
+    text-decoration: none;
+    font-size: 0.6em;
 }
