@@ -1,0 +1,13 @@
+#Box{
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 2px;
+    background-color: orange ;
+    border-radius: 25px 95px;
+}
+
+#Box h1{
+    color: white;
+    text-shadow: 20px 20px black;
+}
