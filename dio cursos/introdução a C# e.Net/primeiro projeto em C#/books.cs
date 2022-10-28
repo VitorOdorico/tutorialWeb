@@ -5,7 +5,6 @@ using pessoa;
 
 class mainBook{
     static void Main(string[] args){
-        person();
 
         var book = new mainBook();
             book.livros = "A divina comedia | inferno";
@@ -17,4 +16,4 @@ class mainBook{
 
         var classe = new Classe();
         var classe2 = new Segundo.Classe(); 
-    }
+    }}
