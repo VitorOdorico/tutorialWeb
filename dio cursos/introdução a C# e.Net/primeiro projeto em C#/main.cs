@@ -1,7 +1,25 @@
 using System;
+using Primeiro;
+using pessoa;
 
 class Program{
     static void Main(string[] args){
-        Console.writeLine("Hello word");
+        var person = new pessoa();
+
+        person.Nome = "Vitor";
+        person.Idade = 19;
+        person.dataNascimento = "26/02/2003";
+        person.Localidade = "Paraná";
+
+        var person2 = new pessoa();
+    
+        person2.Nome = "Thainara";
+        person2.Idade = 21;
+        person2.dataNascimento = "12/12/2001";
+        person2.Localidade = "Paraná";
+
+
+        var classe = new Classe();
+        var classe2 = new Segundo.Classe();
     }
 }
