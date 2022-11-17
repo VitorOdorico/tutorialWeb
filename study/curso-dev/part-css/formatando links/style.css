@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    padding: 2%;
+}
+a:link{
+    color: black;
+}
+
+a:hover{
+    color: red;
+    background: red;
+}
+
+a:visited{
+    color: green;
+}
+a:active{
+    color: gray;
+}

@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    width: 100%;
+    height: 14vh;
+    background: rgb(255, 219, 74);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo h2{
+    font-size: 60px;
+    color: rgb(104, 99, 99);
+}
+
+.logo h3{
+    font-size: 60px;
+    color: white;
+}
+.menu-bar{
+    
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2%;
+        background: rgb(255, 219, 74);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}
+a:hover{
+    color: black;
+}
+/* main */
+
+#area-principal{
+    background: whitesmoke;
+    width: 920px;
+    margin: 0 auto;
+    gap: 20%;
+}
+
+.area-de-postagens{
+    margin-top: 8%;
+
+    width: 660px;
+    float: left;
+}
+
+.area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.rodape{
+   clear: both;
+   text-align: center;
+   padding: 15px;
+   background: #ccc;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ccc;
+}
+
+.postagem img{
+    width: 100%px;
+}
+
+.postagem p{
+    margin-top: 8%;
+}
+.postagem a {
+    margin-top: 5%;
+}
+
+.area-lateral{
+    background: rgb(255, 255, 255);
+    margin-top: 8%;
+}
+
+.noticia{
+    padding: 2%;
+
+}
+
+.noticia a{ 
+    color: rgb(255, 219, 74);
+}
+
+.noticia h2{
+    border: solid #ccc 1px;
+    background: #ccc;
+}
+
+.noticia hr{
+    color: black;
+    margin-top: 10px;
+}

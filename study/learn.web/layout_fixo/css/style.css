@@ -1,0 +1,40 @@
+*{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.container{
+    width: 750px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#cabecalho{
+    width: 100%;
+    background: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo{
+    height: 100px;
+    width: 570px;
+    float: right;
+    background-color: gray;
+}  
+
+#navegacao{
+    height: 100px;
+    width: 180px;
+    float: left;
+   
+    background: #d1d1d1;
+}
+
+#rodape{
+    clear: both;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}

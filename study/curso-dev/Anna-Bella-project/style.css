@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('./img-ana/fundo.png');
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.imagem img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 22px;
+    background-color: rgb(233, 233, 233);
+}
+
+.menu-list a {
+    color: rgb(158, 168, 204);
+}
+
+.text-area {
+    background: #fff;
+}
+
+.text-area h3 {
+    color: gray;
+    font-size: 26px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 2%;
+}
+
+.text-area p {
+    color: black;
+    font-size: 18px;
+    width: 75%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 2%;
+}
+
+.direitos {
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 800;
+}

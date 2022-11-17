@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+ul {
+    list-style: none;
+    width: 75%;
+    background: #242424;
+    float: left;
+  
+}
+
+ul li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-weight: 400;
+
+}
+ul  a{
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    border-left: #fff solid 1px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+ul .primeiro a{
+    border: none;
+}
+
+
+ul a:hover{
+    color: #242424;
+    background-color: #fff;
+}
+
+#home #nav-bar .home a,
+#cadastro #nav-bar .cadastro a,
+#local #nav-bar .local a {
+    color: #242424;
+    background-color: #fff;
+
+}

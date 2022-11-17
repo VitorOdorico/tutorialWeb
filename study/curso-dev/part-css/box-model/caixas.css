@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo{
+    border: solid black 2px;
+    background: black;
+    padding: 2%;
+    margin: 1%;
+    color: wheat;
+    width: 150px;
+}
+.conteudo2{
+    border: solid black 2px;
+    background: black;
+    padding: 2%;
+    margin: 1%;
+    color: wheat;
+    width: 150px;
+}
