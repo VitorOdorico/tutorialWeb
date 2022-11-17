@@ -1,0 +1,13 @@
+#conteudo{
+    background-color: #dcdcdc;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    background-color: white;
+    border:1px solid gray;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
