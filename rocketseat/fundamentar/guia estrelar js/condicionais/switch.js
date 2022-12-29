@@ -15,3 +15,23 @@ switch(expression){
         console.log("não é uma opção valida")
         break
 }
+
+function calculator(numberOne, numberTwo, Operator){
+    let result;
+    let porcent;
+    switch(Operator){
+        case '+':
+            result = numberOne + numberTwo 
+            break
+        case '-':
+            result = numberOne - numberTwo 
+            break
+        case '*':
+            result = numberOne * numberTwo 
+            break
+        case '/':
+            result = numberOne / numberTwo 
+            break
+
+    }   
+}
